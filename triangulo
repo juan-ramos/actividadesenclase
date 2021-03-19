@@ -1,0 +1,7 @@
+print ("Calcularemos el área de un triángulo, introduce los datos que se piden usando números enteros \n")
+base = int(input("Ingresa la base: "))
+altura = int(input("Ingresa la altura: "))
+
+area = (base*altura)/2
+
+print ("El área del triángulo es", area)
