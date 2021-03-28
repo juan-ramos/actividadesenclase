@@ -1,0 +1,7 @@
+#Calcular el año de nacimiento del usuario
+
+print("Proporciona la información que se te pide\n")
+edad = int (input("Dime tu edad "))
+while (edad<0 or edad>100):
+    edad = int(input("\nIntroduce una edad válida "))
+print("\nNaciste en el año "+ str(2021-edad))
